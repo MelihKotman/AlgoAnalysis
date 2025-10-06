@@ -4,4 +4,5 @@ project(my_project)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(AlgoAnalysis
-        AlgoAnalysis-C/main.c)
+        AlgoAnalysis-C/InsertionSort/insertionSort.c
+)
