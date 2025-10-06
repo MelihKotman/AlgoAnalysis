@@ -46,7 +46,7 @@ int main()
 
 // Algoritmanın içini doldurunuz
 void InsertionSort(int A[]){
-for (int j = 2; j < ARRAYSIZE; j++) {
+for (int j = 1; j < ARRAYSIZE; j++) {
     int key = A[j];
     int i = j - 1;
     while (i >= 0 && A[i] > key) {
