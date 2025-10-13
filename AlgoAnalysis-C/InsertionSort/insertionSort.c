@@ -55,6 +55,6 @@ for (int j = 1; j < ARRAYSIZE; j++) { //başlangıcın bir fazlasından sona kad
         A[i+1] = A[i];
         i = i - 1;
     }
-    A[i+1] = key;//Bir sonraki anahtara geç
+    A[i+1] = key;//Bir sonraki anahtara geçelim.
 }
 }
