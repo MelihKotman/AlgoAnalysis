@@ -7,13 +7,13 @@ import time
 ARRAYSIZE = 100
 
 def InsertionSort(A):
-    for j in range(1,ARRAYSIZE):
-        key = A[j-1]
-        i = j - 1
+    for j in range(1,ARRAYSIZE): # Başlangıcın bir fazlasından sona kadar başladık.
+        key = A[j-1] # Sonraki eleman hep bizim anahtarımızdır.
+        i = j - 1 # Anahtar, solundaki dizide yer bulana kadar yer değişimi yapacağız.
         while i > 0 and A[i-1] > key:
             A[i] = A[i-1]
             i -= 1
-        A[i] = key
+        A[i] = key # Bİr sonraki anahtara geçtik.
 
 
 def main():
