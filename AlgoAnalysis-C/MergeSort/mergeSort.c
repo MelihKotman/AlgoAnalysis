@@ -14,7 +14,6 @@ void MergeSort(int A[],int p, int r);
 
 int main()
 {
-    int A1[ARRAYSIZE];
     int A2[ARRAYSIZE];
     int i;
     int num;
@@ -22,7 +21,6 @@ int main()
     srand((unsigned) time(&t));
     for(i = 0; i < ARRAYSIZE; i++){
         num = rand();
-        A1[i] = num;
         A2[i] = num;
     }
 
