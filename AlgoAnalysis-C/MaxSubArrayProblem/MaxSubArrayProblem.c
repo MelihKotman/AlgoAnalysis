@@ -10,7 +10,7 @@
 #include <time.h>
 #include <limits.h>
 
-#define ARRAYSIZE 400000 // toplam fiyat sayisi
+#define ARRAYSIZE 200000 // toplam fiyat sayisi
 
 typedef struct subArray{ // Üç farklı değeri bir yapıda toplamak için yapılan struct yapısı
     int alisGunu; //Başlangıç değerimiz
@@ -37,10 +37,11 @@ int main(){
     for(i = 1; i < ARRAYSIZE; i++){
         degisim[i] = fiyatlar[i] - fiyatlar[i-1];
     }
+    /*
     //Fiyatları sırasıyla yazdıran for döngüsü
     for(i = 0; i < ARRAYSIZE; i++){
         printf("%d: %d\n", i, fiyatlar[i]);
-    }
+    }*/
     //Böl ve Yönet Çalışma Zamanı Hesabı ve Sonucu
     clock_t start_t, end_t;
     double cpu_time_used;
