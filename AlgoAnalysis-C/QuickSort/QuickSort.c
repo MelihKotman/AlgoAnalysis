@@ -78,8 +78,9 @@ int main()
     }
 
     return 0;
+    */
 }
-*/
+
 void InsertionSort(int A[])
 {
     int i,j,key;
