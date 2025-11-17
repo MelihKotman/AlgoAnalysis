@@ -2,8 +2,8 @@ import random
 import time
 from array import array
 
-ARRAYSIZE = 1000
-COUNTING = 1000
+ARRAYSIZE = 100
+COUNTING = 10
 
 
 def counting_sort(A, B, k):
