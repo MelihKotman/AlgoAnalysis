@@ -11,3 +11,4 @@ add_executable(AlgoAnalysis3 AlgoAnalysis-C/MaxSubArrayProblem/MaxSubArrayProble
 add_executable(AlgoAnalysis4 AlgoAnalysis-C/QuickSort/QuickSort.c)
 add_executable(AlgoAnalysis5 AlgoAnalysis-C/HeapSort/heapSort.c)
 add_executable(AlgoAnalysis6 AlgoAnalysis-C/CountingSort/CountingSort.c)
+add_executable(AlgoAnalysis7 AlgoAnalysis-C/DynamicProgramming/CuttingRodProblem.c)
