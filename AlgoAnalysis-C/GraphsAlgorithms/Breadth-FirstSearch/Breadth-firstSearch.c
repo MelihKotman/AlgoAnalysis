@@ -101,8 +101,6 @@ void BFS(int start){
         visited_node = dequeue(myQueue);
 
         // Alınan düğümü "ziyaret edildi" (1) olarak işaretle.
-        // Not: Bu kodda işaretleme kuyruktan çıkarınca yapılıyor.
-        // (Daha güvenli yöntem, kuyruğa eklerken işaretlemektir ama bu da çalışır).
         visited[visited_node] = 1;
         printf("%d is visited.\n",visited_node);
 

@@ -101,15 +101,10 @@ void DFS(int start){
         visited_node = Pop(myStack);
 
         // Alınan düğümü "ziyaret edildi" (1) olarak işaretle.
-        // Not: Bazı implementasyonlarda Push yapılırken işaretlenir, burada Pop yaparken işaretlenmiş.
         // Eğer bu düğüm daha önce işlenmediyse ekrana yazdırırız.
-        if(visited[visited_node] == 0) {
-            visited[visited_node] = 1;
-            printf("%d is visited.\n", visited_node);
-        } else {
-             // Eğer yığına birden fazla kez eklendiyse ve zaten ziyaret edildiyse, tekrar işlemeye gerek yok.
-             continue;
-        }
+        visited[visited_node] = 1;
+        printf("%d is visited.\n", visited_node);
+
 
         // 4. ADIM: Komşuları Bul ve Yığına Ekle.
         // Matris üzerinde o anki düğümün (visited_node) tüm sütunlarını geziyoruz.
