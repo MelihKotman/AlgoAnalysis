@@ -15,3 +15,4 @@ add_executable(AlgoAnalysis7 AlgoAnalysis-C/DynamicProgramming/CuttingRodProblem
 add_executable(AlgoAnalysis8 AlgoAnalysis-C/DynamicProgramming/LongestCommonSubsequenceProblem.c)
 add_executable(AlgoAnalysis9 AlgoAnalysis-C/GraphsAlgorithms/Depth-FirstSearch/Depth-firstSearch.c)
 add_executable(AlgoAnalysisA AlgoAnalysis-C/GraphsAlgorithms/Breadth-FirstSearch/Breadth-firstSearch.c)
+add_executable(AlgoAnalysisB AlgoAnalysis-C/DynamicProgramming/LongestCommonSubsequenceProblemSecond.c)
