@@ -16,3 +16,5 @@ add_executable(AlgoAnalysis8 AlgoAnalysis-C/DynamicProgramming/LongestCommonSubs
 add_executable(AlgoAnalysis9 AlgoAnalysis-C/GraphsAlgorithms/Depth-FirstSearch/Depth-firstSearch.c)
 add_executable(AlgoAnalysisA AlgoAnalysis-C/GraphsAlgorithms/Breadth-FirstSearch/Breadth-firstSearch.c)
 add_executable(AlgoAnalysisB AlgoAnalysis-C/DynamicProgramming/LongestCommonSubsequenceProblemSecond.c)
+add_executable(AlgoAnalysisC AlgoAnalysis-C/RandomizedSelect/RandomizedSelect.c)
+add_executable(AlgoAnalysisD AlgoAnalysis-C/MinMaxProblem/MinMaxProblem.c)
