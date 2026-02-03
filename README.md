@@ -32,12 +32,6 @@ Python diliyle uygulanan algoritmalar aşağıdaki gibidir:
 
 ---
 
-## 📝 Notlar
-- Şu an proje başlangıç aşamasındadır, işlenen algoritmalar ilerleyen haftalarda eklenecektir.  
-- README ilerleyen haftalarda **her algoritmanın açıklaması ve örnek çıktılarıyla güncellenecektir**.
-
----
-
 > ℹ️ **Dipnot: Çalıştırma Talimatları**
 > 
 > **C tarafı:**  
